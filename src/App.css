@@ -1,0 +1,80 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.App{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.editor-wrapper{
+  width: 50%;
+  box-shadow: 1px 1px 10px 2px #3a5f5f;
+}
+
+.editor-header{
+  height: 2rem;
+  background-color: darkgreen;
+  display: flex;
+  align-items: center;
+  padding: 0 .5rem 0 .5rem;
+}
+
+.logo{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.header-title{
+  font-weight: 800;
+  font-size: 1.1rem;
+  text-align: left;
+  margin: 0;
+  margin-left: 1rem;
+}
+
+#editor{
+  margin: 0;
+  min-height: 200px;
+  width: 98.6%;
+}
+
+i.expand-icon{
+  margin-left: auto;
+}
+
+.expand-icon:hover{
+  cursor: pointer;
+  color: #31ce3d;
+}
+
+.previewer-wrapper{
+  width: 80%;
+  box-shadow: 1px 1px 10px 2px #3a5f5f;
+  margin-top: 6%;
+}
+
+.previewer-header{
+  height: 2rem;
+  background-color: darkgreen;
+  display: flex;
+  align-items: center;
+  padding: 0 .5rem 0 .5rem;
+  border-radius: 5% 5% 0 0;
+}
+
+.previer__text--area{
+  width: 100%;
+  height: auto;
+  border: 1px solid;
+}
+
+div.previer__text--area{
+  text-align: left;
+}

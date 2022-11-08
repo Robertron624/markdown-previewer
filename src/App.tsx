@@ -30,7 +30,6 @@ Finally, below this you can see an image example:
         <div className="editor-header">
           <img src="/logo.png" alt="logo" className="logo" />
           <p className="header-title">Editor</p>
-          <i className="fa fa-arrows-alt expand-icon" aria-hidden="true"></i>
         </div>
         <textarea
           value={editorContent}
@@ -43,7 +42,6 @@ Finally, below this you can see an image example:
           }}
         ></textarea>
       </div>
-
       <Preview markdown={editorContent} />
     </div>
   );
@@ -63,7 +61,6 @@ const Preview = (props: any) => {
       <div className="previewer-header">
         <img src="/logo.png" alt="logo" className="logo" />
         <p className="header-title">Previewer</p>
-        <i className="fa fa-arrows-alt expand-icon" aria-hidden="true"></i>
       </div>
       <div
         dangerouslySetInnerHTML={rawMarkUp()}
